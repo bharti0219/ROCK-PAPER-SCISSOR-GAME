@@ -1,0 +1,81 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+body
+{
+    text-align: center;
+}
+.main
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+}
+.scores
+{
+   
+    display: flex;
+    flex-direction: row;
+    gap:1.5rem;
+    justify-content: center;
+    margin-top: 30vmin;
+    
+}
+#rock
+{
+    background-image: url("rock.jpg");
+    background-size: cover;
+}
+#paper
+{
+    background-image: url("paper.jpg");
+    background-size: cover;
+}
+#scissor
+{
+    background-image: url("scissor.jpg");
+    background-size: cover;
+}
+
+.first
+{
+    display: flex;
+    
+    flex-direction: column;
+    gap:1.5rem;
+}
+.second
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.display ,.reset
+{
+    margin-top: 20vmin;
+    height: 2rem;
+    width: 10rem;
+    background-color: black;
+    color: white;
+    border-radius: 2rem;
+}
+    
+.option
+{
+    height: 30vmin;
+    width: 30vmin;
+    border: none;
+    border-radius: 50%;
+}
+.inc
+{
+    border: 2px solid black;
+}
+.option:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    background-color: black;
+}
